@@ -1,0 +1,255 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.logo{
+    fill: red;
+    width: 40px;
+    
+}
+
+.tela{
+    height: 350px;
+    width: 600px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    border-bottom: 3px solid red;
+}
+
+.superior{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.Chromecast{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+    border: none;
+
+    
+}
+
+.Legenda{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+}
+
+.Engrenagem{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 250px;
+    right: 250px;
+    
+}
+
+.Backward{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+}
+
+.Play{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+}
+
+.Foward{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white;
+}
+
+.inferior{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.Expandir{
+    width: 25px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    fill: white; 
+}
+
+.Likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.like{
+    height: 36px;
+    width: 65px;
+    border-radius: 25px;
+    border: 0;
+    background-color: black;
+    fill: white; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+ 
+h3{
+    color: white;
+    position: absolute;
+    right: 379px;
+    font-size: 15px;
+}
+
+.like svg{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+.Backward:hover{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Expandir:hover{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Chromecast:hover{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Engrenagem:hover{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Legenda:hover{
+ background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Play:hover{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Foward:hover  {
+    background-color: gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.Chromecast svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Engrenagem svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Legenda svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Expandir svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Backward svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Play svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Foward svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
